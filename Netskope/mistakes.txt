@@ -1,0 +1,12 @@
+HLD
+----
+Mistake 1: Did not clarify the HLD problem understanding
+Mistake 2: Did not come up with correct requirements
+Mistake 3: Did not emphasize the pain point of problem and how to solve
+Mistake 4: Lacks in drawing skills 
+
+
+
+DS_ALgo
+Mistake 1: Did not read the question correctly ( missed sorted )
+Mistake 2: improvizaitons 

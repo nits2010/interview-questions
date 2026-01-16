@@ -1,0 +1,6 @@
+Question Type: DS & Algo
+Question: Given a sorted integer array A of length n and a positive integer K,
+Return all unique pairs of indices (i, j) such that A[i] + A[j] = K and i ≠ j.
+arr =[1,2,3,4,5,6]
+K = 6
+(1,5) (2,4)
