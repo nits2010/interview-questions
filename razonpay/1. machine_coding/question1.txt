@@ -1,0 +1,20 @@
+Design and implement an in-memory Rating Service. 
+Using this rating service administrator should be able to create a new survey.
+Inside this survey, the admin should be able to add, update and delete questions. 
+
+A question can have multiple options, where options have scores assigned. 
+The average of answers’ score is the rating of the survey, an average of all ratings is the overall survey rating.
+
+A survey can be shared with registered users.  
+
+Below functionality should be available
+Admin : 
+Create a survey
+Create questions and options for surveys -> max -> 10
+Define the score for each option 
+Survey response should be rated, overall rating should be  calculated, and shown to admin
+Admin should be able to see the average rating of each question
+
+User:
+Users should be able to respond to the provided survey, 
+Users should not be allowed to re-submit a survey
