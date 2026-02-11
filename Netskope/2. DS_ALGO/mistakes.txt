@@ -1,0 +1,7 @@
+
+DS_ALgo
+- Took quite longer to solve it. 
+- Struggle to figure out how to use Stack to compute histogram area
+
+Positive:
+- Coded faster

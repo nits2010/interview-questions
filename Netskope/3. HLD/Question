@@ -1,0 +1,6 @@
+Design a word counter service that supports 3 apis
+- ingest: takes sequence of words and returns success/failure
+- count: takes a word and returns how many times that word has been ingested so far
+- countDuring: takes a word, startTime and endTime. Returns how many times that word has been ingested between start time and end time
+
+
