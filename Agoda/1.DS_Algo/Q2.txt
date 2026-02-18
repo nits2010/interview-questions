@@ -1,0 +1,49 @@
+[SHP.IV1.RV2] Chemistry [B]
+Description
+As we know, chemical formulas can have groups of elements having the same multiplier, with the group being enclosed in a pair of brackets. 
+
+ 
+
+You need to write a function calculateWeight which takes in a single parameter: a string called formula. Now, if a number is after a close bracket ")", then it is applied to all inside the preceding bracket group. You can see the examples below for more explanation.
+
+ 
+
+We also guarantee that all the numbers are single-digit and larger than 0. Note that a formula with an opening bracket at the start and a closing bracket at the end is a valid input, e.g. ((CH4)) will still be valid with a weight of 16.
+
+ 
+
+Examples
+
+CH4
+
+The output should be 16 as it is 12 (C is 12) and 4 times H (which is 1), so it is 12 + 4 = 16.
+
+ 
+
+H(CH4)2
+
+The output should be 33 as it is H, which is 1, plus (CH4)2. In the latter part, the multiplier "2" is applied to everything inside the preceding brackets. Since CH4 is 16, we multiply this by 2, so we get 32. As a result, we get 1 + 32, which is 33.
+
+ 
+
+We guarantee that all the inputs are valid and there are no unmatched brackets, meaning that all opening brackets have a corresponding closing bracket. All elements in the input are guaranteed to be either C, H, or O. All numbers in the input are single-digit numbers.
+
+ 
+
+Function Description 
+
+Complete the function calculateWeight in the editor below.
+
+ 
+
+Function Parameters:
+
+    string formula: the chemical formula
+
+ 
+
+Returns
+
+    int: the weight of the molecule
+
+ 

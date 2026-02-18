@@ -1,0 +1,62 @@
+[SHP.IV1.RV2] Chemistry [A]
+Description
+A molecule is composed of atoms. Each atom is represented by a single uppercase letter. We only consider C, H, and O for this problem. The weight of each element can be found below:
+
+C = 12
+
+H = 1
+
+O = 8
+
+ 
+
+We are interested in calculating the mass of the molecule. It does not matter if the specified formula is not a valid molecule, we just want to get the total weight. 
+
+ 
+
+You need to write a function calculateWeight which takes in a single parameter: a string called formula. We can calculate the total weight by adding all the weights of each atom, multiplied by the appropriate multiplier. A number in the input string represents a multiplier and it is applied to the element preceding it. 
+
+ 
+
+We also guarantee that all the numbers are single-digit and larger than 0. 
+
+ 
+
+Examples
+
+CH4
+
+The output should be 16 as it is 12 (C is 12) and 4 times H (which is 1), so it is 12 + 4 = 16.
+
+ 
+
+CHO
+
+The output should be 21 as it is C (12) + H (1) + O (8) = 21.
+
+ 
+
+We guarantee that all the inputs are valid.
+
+ 
+
+Function Description 
+
+Complete the function calculateWeight in the editor below.
+
+ 
+
+Function Parameters:
+
+    string formula: the chemical formula
+
+ 
+
+Returns
+
+    int: the weight of the molecule
+
+ 
+
+ 
+
